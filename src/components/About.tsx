@@ -69,7 +69,7 @@ export default function About() {
                   <p className="text-xs font-semibold text-slate-800">
                     Partner Terpercaya
                   </p>
-                  <p className="text-sm font-bold">UMKM Se-Indonesia</p>
+                  <p className="text-sm font-bold">Produsen Fashion Se-Indonesia</p>
                 </div>
               </motion.div>
             </div>

@@ -1,0 +1,6 @@
+{
+  "name": "Lilik Label",
+  "description": "Landing Page modern untuk jasa percetakan dan pembuatan label custom premium Lilik Label, dioptimalkan untuk UMKM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

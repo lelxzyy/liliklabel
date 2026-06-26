@@ -19,66 +19,74 @@ export default function Gallery() {
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      title: "Label Woven Brand Jaket",
+      title: "Label Woven Brand Pilotter",
       category: "fashion",
       categoryLabel: "Fashion",
-      image: "https://images.unsplash.com/photo-1520975869014-35fd2fb2da3d?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/73/2d/bb/732dbbbaf6637875aa1b3dd950143725.jpg",
       size: "row-span-2",
     },
     {
       id: 2,
-      title: "Label Printing Tag T-Shirt",
+      title: "Hangtag Pilotter",
       category: "hangtag",
       categoryLabel: "Hangtag & Care",
-      image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/88/33/8a/88338a1ec108a3ec5b00f80513c92531.jpg",
       size: "row-span-1",
     },
     {
       id: 3,
-      title: "Label Komputer Ukuran Seragam",
+      title: "Logo Pangkat Kelas",
       category: "seragam",
       categoryLabel: "Seragam",
-      image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/7f/09/5b/7f095b314ab700509708e5ce6130dc7b.jpg",
       size: "row-span-1",
     },
     {
       id: 4,
-      title: "Hangtag Fashion Premium",
+      title: "Hangtag R2M Apparel",
       category: "hangtag",
       categoryLabel: "Hangtag & Care",
-      image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/d9/2e/c5/d92ec56765804e6d97e5fec48857ced5.jpg",
       size: "row-span-2",
     },
     {
       id: 5,
-      title: "Label Satin Dress Mewah",
+      title: "Label Dickies",
       category: "fashion",
       categoryLabel: "Fashion",
-      image: "https://images.unsplash.com/photo-1512099042905-0f2f7fc8cb96?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/57/b8/a3/57b8a36872e13e7ccf0c8cc6c1e33da7.jpg",
       size: "row-span-1",
     },
     {
       id: 6,
-      title: "Label Komputer Pakaian Anak",
+      title: "Label Peci",
       category: "custom",
       categoryLabel: "Custom",
-      image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/7b/7c/07/7b7c0722942a1d9cf2bc7ba393370dfa.jpg",
       size: "row-span-1",
     },
     {
       id: 7,
-      title: "Label Rubber Streetwear",
+      title: "Label Stone Island",
       category: "fashion",
       categoryLabel: "Fashion",
-      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/e2/9f/13/e29f1376b6bebe07be600e47fcea0e35.jpg",
       size: "row-span-1",
     },
     {
       id: 8,
-      title: "Label Seragam Sekolah Custom",
+      title: "Logo SDIT SALSABILA",
       category: "seragam",
       categoryLabel: "Seragam",
-      image: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80",
+      image:
+        "https://i.pinimg.com/736x/c8/0f/05/c80f058c7695ce45e5b174a9cc537b67.jpg",
       size: "row-span-1",
     },
   ];

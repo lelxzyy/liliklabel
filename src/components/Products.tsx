@@ -18,38 +18,66 @@ export default function Products() {
       id: "woven",
       name: "Label Woven",
       desc: "Label rajut berkualitas tinggi untuk pakaian dan fashion brand, tahan cuci, tidak mudah luntur, ideal untuk merk, ukuran, dan care label.",
-      image: "https://images.unsplash.com/photo-1520975869014-35fd2fb2da3d?auto=format&fit=crop&w=600&q=80",
+      image:
+        "https://i.pinimg.com/736x/53/7d/33/537d337526f0496d2358a3d7c22e530d.jpg",
       price: "Rp 350 /pcs",
-      features: ["Tahan Cuci & Tidak Mudah Luntur", "Tekstur Premium Woven", "Cocok untuk Pakaian & Aksesori", "Hasil Label Brand Profesional"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Woven* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
+      features: [
+        "Tahan Cuci & Tidak Mudah Luntur",
+        "Tekstur Premium Woven",
+        "Cocok untuk Pakaian & Aksesori",
+        "Hasil Label Brand Profesional",
+      ],
+      waMessage:
+        "Halo Lilik Label, saya tertarik memesan *Label Woven* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
       id: "printing",
       name: "Label Printing",
-      desc: "Label kain printing warna penuh dengan detail tajam, sangat cocok untuk label brand, instruksi perawatan, dan label ukuran pada pakaian.",
-      image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
+      desc: "Label kain printing (satin & taffeta)warna penuh dengan detail tajam, sangat cocok untuk label brand, instruksi perawatan, dan label ukuran pada pakaian.",
+      image:
+        "https://i.pinimg.com/736x/b1/72/e8/b172e8774ed0375a3b8fc0f89cff676e.jpg",
       price: "Rp 280 /pcs",
-      features: ["Cetak Warna Penuh Berkualitas", "Permukaan Lembut untuk Kain", "Ideal untuk Care Label & Brand", "Detail Tajam pada Ukuran Kecil"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Printing* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
+      features: [
+        "Cetak Warna Penuh Berkualitas",
+        "Permukaan Lembut untuk Kain",
+        "Ideal untuk Care Label & Brand",
+        "Detail Tajam pada Ukuran Kecil",
+      ],
+      waMessage:
+        "Halo Lilik Label, saya tertarik memesan *Label Printing* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
       id: "komputer",
       name: "Label Komputer",
       desc: "Label komputer presisi untuk pakaian dan seragam, mudah dicetak dalam jumlah banyak dengan hasil logo, nama, dan ukuran yang konsisten.",
-      image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
+      image:
+        "https://i.pinimg.com/736x/73/2e/ad/732ead03acc11e672f4caa239a855975.jpg",
       price: "Rp 220 /pcs",
-      features: ["Hasil Cetak Presisi Komputer", "Cocok untuk Seragam & Pakaian", "Daya Rekat Kuat & Tahan Panas", "Ideal untuk Produksi Massal"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Komputer* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
+      features: [
+        "Hasil Cetak Presisi Komputer",
+        "Cocok untuk Seragam & Pakaian",
+        "Daya Rekat Kuat & Tahan Panas",
+        "Ideal untuk Produksi Massal",
+      ],
+      waMessage:
+        "Halo Lilik Label, saya tertarik memesan *Label Komputer* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
       id: "tag",
       name: "Label Tag Gantung",
       desc: "Label gantung custom untuk pakaian dan aksesori, membantu memperkuat brand dengan desain premium dan material tebal.",
-      image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=600&q=80",
+      image:
+        "https://i.pinimg.com/736x/88/33/8a/88338a1ec108a3ec5b00f80513c92531.jpg",
       price: "Rp 180 /pcs",
-      features: ["Custom Desain Brand & Harga", "Bahan Tebal & Tahan Rusak", "Cocok untuk Tag Pakaian & Aksesori", "Finishing Matte/Mengkilap"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Tag Gantung* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
-    }
+      features: [
+        "Custom Desain Brand & Harga",
+        "Bahan Tebal & Tahan Rusak",
+        "Cocok untuk Tag Pakaian & Aksesori",
+        "Finishing Matte/Mengkilap",
+      ],
+      waMessage:
+        "Halo Lilik Label, saya tertarik memesan *Label Tag Gantung* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
+    },
   ];
 
   const getWaLink = (message: string) => {

@@ -41,9 +41,7 @@ export default function Footer() {
           {/* Column 1: Brand & About */}
           <div className="lg:col-span-4 space-y-6">
             <a href="#hero" onClick={(e) => handleNavClick(e, "#hero")} className="flex items-center gap-2.5">
-              <div className="bg-blue-600 text-white p-2.5 rounded-xl">
-                <Printer className="w-6 h-6" />
-              </div>
+              
               <span className="text-2xl font-black tracking-tight text-white">
                 Lilik<span className="text-blue-500">Label</span>
               </span>

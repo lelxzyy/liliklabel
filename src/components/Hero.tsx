@@ -126,7 +126,7 @@ export default function Hero() {
               {/* Main Mockup Image */}
               <div className="bg-white p-3 rounded-[2rem] shadow-2xl border border-slate-100/50 overflow-hidden transform hover:scale-[1.02] transition-transform duration-500">
                 <img
-                  src="https://i.pinimg.com/736x/c1/a8/60/c1a86097dc0dfcf65ddd5d2a9a95408a.jpg"
+                  src="https://i.pinimg.com/736x/15/b3/7a/15b37af1e41210b921ab3a700f5f0d6c.jpg"
                   alt="Custom Product Label Premium Mockup Lilik Label"
                   className="rounded-[1.5rem] w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
@@ -151,7 +151,7 @@ export default function Hero() {
                     Bahan Premium
                   </p>
                   <p className="text-sm font-extrabold text-slate-800">
-                    100% Vinyl & Waterproof
+                    satin, woven, printing
                   </p>
                 </div>
               </motion.div>
@@ -175,7 +175,7 @@ export default function Hero() {
                     Gratis Jasa
                   </p>
                   <p className="text-sm font-extrabold">
-                    Potong Pola (Die Cut)
+                    Potong (Hot Cut)
                   </p>
                 </div>
               </motion.div>

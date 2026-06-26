@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://liliklabel.id/sitemap.xml
+Sitemap: https://liliklabel.web.id/sitemap.xml

@@ -6,7 +6,7 @@ import { CONFIG } from "../config/config";
 interface GalleryItem {
   id: number;
   title: string;
-  category: "kuliner" | "kosmetik" | "kemasan" | "lainnya";
+  category: "fashion" | "seragam" | "hangtag" | "custom";
   categoryLabel: string;
   image: string;
   size: string; // Used to simulate masonry layout
@@ -19,76 +19,76 @@ export default function Gallery() {
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      title: "Label Botol Jus Sehat Organik",
-      category: "kuliner",
-      categoryLabel: "Kuliner",
-      image: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=800&q=80",
+      title: "Label Woven Brand Jaket",
+      category: "fashion",
+      categoryLabel: "Fashion",
+      image: "https://images.unsplash.com/photo-1520975869014-35fd2fb2da3d?auto=format&fit=crop&w=800&q=80",
       size: "row-span-2",
     },
     {
       id: 2,
-      title: "Label Serum Wajah & Skincare Glass Jar",
-      category: "kosmetik",
-      categoryLabel: "Skincare & Kosmetik",
-      image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=800&q=80",
+      title: "Label Printing Tag T-Shirt",
+      category: "hangtag",
+      categoryLabel: "Hangtag & Care",
+      image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80",
       size: "row-span-1",
     },
     {
       id: 3,
-      title: "Label Madu Murni Kemasan Jar Kaca",
-      category: "kuliner",
-      categoryLabel: "Kuliner",
-      image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+      title: "Label Komputer Ukuran Seragam",
+      category: "seragam",
+      categoryLabel: "Seragam",
+      image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80",
       size: "row-span-1",
     },
     {
       id: 4,
-      title: "Stiker Segel Box Pengiriman (Seal Label)",
-      category: "kemasan",
-      categoryLabel: "Kemasan & Segel",
-      image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80",
+      title: "Hangtag Fashion Premium",
+      category: "hangtag",
+      categoryLabel: "Hangtag & Care",
+      image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=800&q=80",
       size: "row-span-2",
     },
     {
       id: 5,
-      title: "Label Cold Brew Coffee Bottle",
-      category: "kuliner",
-      categoryLabel: "Kuliner",
-      image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      title: "Label Satin Dress Mewah",
+      category: "fashion",
+      categoryLabel: "Fashion",
+      image: "https://images.unsplash.com/photo-1512099042905-0f2f7fc8cb96?auto=format&fit=crop&w=800&q=80",
       size: "row-span-1",
     },
     {
       id: 6,
-      title: "Label Organik Minyak Esensial Spa",
-      category: "kosmetik",
-      categoryLabel: "Skincare & Kosmetik",
-      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
+      title: "Label Komputer Pakaian Anak",
+      category: "custom",
+      categoryLabel: "Custom",
+      image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80",
       size: "row-span-1",
     },
     {
       id: 7,
-      title: "Label Premium Kraft Paper Packaging",
-      category: "kemasan",
-      categoryLabel: "Kemasan & Segel",
-      image: "https://images.unsplash.com/photo-1589365278144-c9e705f843ba?auto=format&fit=crop&w=800&q=80",
+      title: "Label Rubber Streetwear",
+      category: "fashion",
+      categoryLabel: "Fashion",
+      image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
       size: "row-span-1",
     },
     {
       id: 8,
-      title: "Stiker Potong Pola Custom Die-Cut Logo",
-      category: "lainnya",
-      categoryLabel: "Produk Lainnya",
-      image: "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=800&q=80",
+      title: "Label Seragam Sekolah Custom",
+      category: "seragam",
+      categoryLabel: "Seragam",
+      image: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=80",
       size: "row-span-1",
     },
   ];
 
   const filters = [
-    { value: "semua", label: "Semua Hasil Cetak" },
-    { value: "kuliner", label: "Makanan & Minuman" },
-    { value: "kosmetik", label: "Skincare & Kosmetik" },
-    { value: "kemasan", label: "Kemasan & Segel" },
-    { value: "lainnya", label: "Die-Cut Custom" },
+    { value: "semua", label: "Semua Label Pakaian" },
+    { value: "fashion", label: "Fashion" },
+    { value: "seragam", label: "Seragam" },
+    { value: "hangtag", label: "Hangtag & Care" },
+    { value: "custom", label: "Custom Label" },
   ];
 
   const filteredItems = activeFilter === "semua"
@@ -97,7 +97,7 @@ export default function Gallery() {
 
   const getWaLinkForGallery = (title: string) => {
     const baseWa = CONFIG.whatsapp.split("?")[0];
-    const text = `Halo Lilik Label, saya tertarik memesan stiker label custom seperti di portofolio *"${title}"*. Boleh konsultasi lebih lanjut?`;
+    const text = `Halo Lilik Label, saya tertarik memesan label pakaian custom seperti di portofolio *"${title}"*. Boleh konsultasi lebih lanjut?`;
     return `${baseWa}?text=${encodeURIComponent(text)}`;
   };
 
@@ -108,10 +108,10 @@ export default function Gallery() {
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
           <span className="text-blue-600 font-bold uppercase tracking-wider text-xs sm:text-sm">Galeri Hasil Cetak</span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
-            Inspirasi Hasil Cetak Label & Stiker Klien Kami
+            Inspirasi Hasil Cetak Label Pakaian & Fashion
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed">
-            Mulai dari botol plastik, tube karet, toples madu, hingga kardus kraft ramah lingkungan. Temukan referensi terbaik bagi identitas visual produk Anda.
+            Mulai dari label woven jacket, hangtag premium, care label, hingga label komputer seragam. Temukan inspirasi untuk memperkuat brand fashion Anda.
           </p>
         </div>
 
@@ -225,15 +225,15 @@ export default function Gallery() {
                     </div>
 
                     <p className="text-slate-600 text-sm font-medium leading-relaxed">
-                      Portofolio asli produksi *Lilik Label*. Kami menggunakan sistem kontrol cetak digital modern untuk menghasilkan akurasi warna gradasi yang sempurna serta lem stiker yang kokoh dan tidak menyisakan noda di kemasan.
+                      Portofolio asli produksi *Lilik Label*. Kami menggunakan sistem kontrol cetak modern untuk menghasilkan label pakaian dengan warna tajam, tekstur rapi, dan daya tahan jahit terbaik.
                     </p>
 
                     {/* Features checklist */}
                     <div className="bg-slate-50 p-4 rounded-2xl space-y-2 text-xs font-bold text-slate-600 border border-slate-100">
                       <p className="text-slate-400 uppercase tracking-wider text-[10px]">Detail Spesifikasi</p>
-                      <p>✓ Bahan: Premium Vinyl Sticker Paper</p>
-                      <p>✓ Pemotongan: Automatic Die-Cut (Pola Custom Presisi)</p>
-                      <p>✓ Cetak: High-Definition Ink-Jet Offset Press</p>
+                      <p>✓ Bahan: Label kain premium untuk apparel dan hangtag</p>
+                      <p>✓ Pemotongan: Presisi jahit dan pola custom sesuai brand</p>
+                      <p>✓ Cetak: High-definition warna penuh untuk label fashion</p>
                     </div>
                   </div>
 

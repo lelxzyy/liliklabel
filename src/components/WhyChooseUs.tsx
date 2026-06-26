@@ -15,28 +15,28 @@ export default function WhyChooseUs() {
     {
       icon: Printer,
       title: "Cetak Berkualitas",
-      desc: "Menggunakan mesin offset dan digital press berskala industri. Menghasilkan warna cetakan yang sangat tajam, cerah, presisi tinggi, dan anti luntur.",
+      desc: "Menggunakan mesin offset dan digital press berskala industri. Menghasilkan warna cetakan yang sangat tajam, presisi tinggi, dan tahan cuci untuk label pakaian.",
       colorClass: "text-blue-600",
       bgColorClass: "bg-blue-50",
     },
     {
       icon: Percent,
       title: "Harga Terjangkau",
-      desc: "Kami menawarkan skema harga grosir yang sangat kompetitif. Makin banyak jumlah cetakan Anda, biaya per lembar stiker akan jauh lebih ekonomis.",
+      desc: "Kami menawarkan skema harga grosir yang sangat kompetitif. Makin banyak jumlah label pakaian Anda, biaya per label akan jauh lebih ekonomis.",
       colorClass: "text-amber-500",
       bgColorClass: "bg-amber-50",
     },
     {
       icon: Palette,
       title: "Desain Custom",
-      desc: "Kebebasan penuh menyesuaikan bentuk potongan (Kiss Cut atau Die Cut) serta layout label sesuai konsep visual estetik yang diinginkan brand Anda.",
+      desc: "Kebebasan penuh menyesuaikan bentuk, ukuran, dan layout label untuk brand fashion Anda, mulai dari woven hingga hangtag stylish.",
       colorClass: "text-emerald-500",
       bgColorClass: "bg-emerald-50",
     },
     {
       icon: Zap,
       title: "Proses Cepat",
-      desc: "Alur produksi terintegrasi penuh membuat proses pengerjaan stiker label Anda selesai tepat waktu tanpa mengurangi ketelitian kontrol kualitas.",
+      desc: "Alur produksi terintegrasi penuh membuat proses pengerjaan label pakaian Anda selesai tepat waktu tanpa mengurangi ketelitian kontrol kualitas.",
       colorClass: "text-indigo-600",
       bgColorClass: "bg-indigo-50",
     },
@@ -69,7 +69,7 @@ export default function WhyChooseUs() {
             Mengapa UMKM Memilih Lilik Label?
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed">
-            Komitmen kami adalah membantu meningkatkan nilai jual kemasan luar produk Anda melalui label stiker yang dikerjakan secara profesional dan berkualitas tinggi.
+            Komitmen kami adalah membantu meningkatkan nilai jual fashion brand Anda melalui label pakaian yang dikerjakan secara profesional dan berkualitas tinggi.
           </p>
         </div>
 

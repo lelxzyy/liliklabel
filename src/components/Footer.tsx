@@ -49,7 +49,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-sm text-slate-400 font-medium leading-relaxed">
-              Penyedia jasa percetakan label custom premium terpercaya di Indonesia. Kami membantu menaikkan level kemasan produk UMKM, makanan, minuman, kosmetik, skincare, dan brand retail melalui cetakan stiker presisi tinggi.
+              Penyedia jasa percetakan label pakaian custom premium terpercaya di Indonesia. Kami membantu menaikkan level fashion brand, butik, dan produk apparel melalui cetakan label woven, printing, dan komputer berkualitas tinggi.
             </p>
             {/* Social Icons */}
             <div className="flex items-center gap-3 pt-2">

@@ -28,7 +28,7 @@ export default function Products() {
       desc: "Label kain printing warna penuh dengan detail tajam, sangat cocok untuk label brand, instruksi perawatan, dan label ukuran pada pakaian.",
       image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
       features: ["Cetak Warna Penuh Berkualitas", "Permukaan Lembut untuk Kain", "Ideal untuk Care Label & Brand", "Detail Tajam pada Ukuran Kecil"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Printing* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
+      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Printing* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
       id: "komputer",
@@ -44,7 +44,7 @@ export default function Products() {
       desc: "Label satin halus dengan tampilan mewah untuk pakaian premium, dress, dan koleksi fashion yang membutuhkan finishing elegan.",
       image: "https://images.unsplash.com/photo-1525186402429-2a1d3f476b06?auto=format&fit=crop&w=600&q=80",
       features: ["Permukaan Satin Halus & Mewah", "Nyaman di Kontak Kulit", "Cocok untuk Pakaian Premium", "Cetak Logo & Instruksi Perawatan"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Satin* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
+      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Satin* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
       id: "rubber",
@@ -52,7 +52,7 @@ export default function Products() {
       desc: "Label rubber timbul yang kuat untuk pakaian olahraga, streetwear, dan jaket yang membutuhkan detail akhir modern dan tahan lama.",
       image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
       features: ["Tahan Aus & Elastis", "Desain Timbul Modern", "Cocok untuk Hoodie & Jaket", "Tahan Cuci Mesin"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Rubber* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
+      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Rubber* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
       id: "tag",
@@ -60,7 +60,7 @@ export default function Products() {
       desc: "Label gantung custom untuk pakaian dan aksesori, membantu memperkuat brand dengan desain premium dan material tebal.",
       image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=600&q=80",
       features: ["Custom Desain Brand & Harga", "Bahan Tebal & Tahan Rusak", "Cocok untuk Tag Pakaian & Aksesori", "Finishing Matte/Mengkilap"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Tag Gantung* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
+      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Tag Gantung* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
   ];
 
@@ -77,10 +77,11 @@ export default function Products() {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-blue-600 font-bold uppercase tracking-wider text-xs sm:text-sm">Katalog Produk</span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
-            Pilihan Bahan Terbaik Untuk Label Produk Anda
+            Pilihan Label Pakaian & Fashion Brand Terbaik
           </h2>
           <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed">
-            Sesuaikan jenis bahan stiker dengan kebutuhan karakteristik produk Anda. Setiap bahan dicetak dengan resolusi tinggi demi penampilan branding yang maksimal.
+            Pilih label woven, printing, komputer, dan hangtag yang tepat untuk
+            meningkatkan kesan premium koleksi pakaian Anda.
           </p>
         </div>
 

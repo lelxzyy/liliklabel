@@ -1,6 +1,6 @@
 export const CONFIG = {
   whatsapp:
-    "https://wa.me/6287838514082?text=Halo%20Lilik%20Label%2C%20saya%20tertarik%20untuk%20membuat%20label%20custom%20produk.",
+    "https://wa.me/6287838514082?text=Halo%20Lilik%20Label%2C%20saya%20tertarik%20untuk%20membuat%20label%20pakaian%20custom.",
   instagram: "https://instagram.com/liliklabel",
   brandName: "Lilik Label",
   contactPhone: "+62 878-3851-4082",

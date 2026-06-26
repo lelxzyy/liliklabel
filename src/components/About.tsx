@@ -10,10 +10,10 @@ export default function About() {
   ];
 
   const benefits = [
-    "Menggunakan mesin cetak berskala industri dengan resolusi HD.",
-    "Bahan stiker berkualitas tinggi (tahan air, anti sobek, lem rekat kuat).",
-    "Pilihan finishing terlengkap (Laminasi Glossy, Doff, Sandblast, dll).",
-    "Layanan konsultasi gratis untuk rekomendasi bahan terbaik.",
+    "Menggunakan mesin cetak berskala industri untuk hasil label pakaian tajam dan presisi.",
+    "Bahan label tahan cuci, tidak cepat luntur, dan nyaman di kulit.",
+    "Pilihan finishing untuk woven, satin, printing, komputer, dan hangtag fashion.",
+    "Layanan konsultasi gratis untuk rekomendasi label pakaian terbaik.",
   ];
 
   return (
@@ -49,7 +49,7 @@ export default function About() {
                 <div>
                   <h4 className="text-2xl font-black">5+ Thn</h4>
                   <p className="text-xs text-blue-100 font-medium leading-tight">
-                    Pengalaman di Bidang Cetak Label
+                    Pengalaman di Bidang Cetak Label Pakaian
                   </p>
                 </div>
               </motion.div>
@@ -82,22 +82,20 @@ export default function About() {
                 Tentang Lilik Label
               </span>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
-                Penyedia Jasa Cetak Label Custom Tepercaya untuk Bisnis Anda
+                Penyedia Jasa Cetak Label Pakaian Custom Tepercaya untuk Brand Fashion
               </h2>
             </div>
 
             <p className="text-base text-slate-600 font-medium leading-relaxed">
-              Lilik Label hadir untuk memberikan solusi percetakan label kemasan
-              dan produk dengan standar kualitas premium. Kami mengerti bahwa
-              label bukan sekadar stiker penanda, melainkan wajah pertama dari
-              brand Anda yang membangun kepercayaan pembeli.
+              Lilik Label hadir untuk memberikan solusi percetakan label pakaian
+              premium. Kami mengerti bahwa label bukan sekadar penanda, melainkan
+              identitas brand yang membangun kesan profesional dan eksklusif.
             </p>
 
             <p className="text-base text-slate-600 font-medium leading-relaxed">
-              Kami melayani berbagai macam kebutuhan branding produk seperti
-              kemasan makanan & minuman, botol jar skincare, tube kosmetik,
-              hangtag fashion, stiker segel box, hingga label pengiriman toko
-              online dengan opsi penyesuaian bahan dan finishing terlengkap.
+              Kami melayani kebutuhan fashion brand seperti label woven,
+              label printing, label komputer, satin, hangtag fashion, dan care
+              label yang dirancang khusus untuk pakaian, tas, dan aksesori.
             </p>
 
             {/* Benefit Checklists */}

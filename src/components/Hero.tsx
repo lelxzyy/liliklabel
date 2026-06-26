@@ -37,7 +37,7 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-xs sm:text-sm font-semibold mx-auto lg:mx-0 self-center lg:self-start shadow-sm"
             >
-              <span>Percetakan Label Custom</span>
+              <span>Percetakan Label Pakaian</span>
             </motion.div>
 
             {/* Headline */}
@@ -47,7 +47,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.15 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight"
             >
-              Buat Label Produk yang{" "}
+              Buat Label Pakaian yang{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-800">
                 Menarik & Berkualitas
               </span>
@@ -60,9 +60,9 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 font-medium leading-relaxed"
             >
-              Kami membantu UMKM dan berbagai bisnis menciptakan label produk
-              berkualitas tinggi dengan desain menarik, hasil cetak tajam, dan
-              harga terjangkau.
+              Kami membantu brand fashion dan produsen pakaian mencetak label
+              woven, printing, komputer, dan hangtag berkualitas dengan hasil
+              detail tajam dan tahan cuci.
             </motion.p>
 
             {/* CTA Buttons */}

@@ -29,12 +29,12 @@ export default function CTA() {
 
             {/* Headline */}
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
-              Siap Membuat Label Produk Anda Terlihat Lebih Profesional?
+              Siap Membuat Label Pakaian Anda Terlihat Lebih Profesional?
             </h2>
 
             {/* Subtitle Description */}
             <p className="text-base sm:text-lg text-blue-100 max-w-2xl font-medium leading-relaxed">
-              Konsultasikan kebutuhan branding Anda sekarang juga. Hubungi tim admin Lilik Label untuk rekomendasi bahan terbaik, kalkulasi harga custom, dan bantuan pembuatan file siap cetak.
+              Konsultasikan kebutuhan label fashion Anda sekarang juga. Hubungi tim admin Lilik Label untuk rekomendasi bahan terbaik, kalkulasi harga custom, dan bantuan file siap jahit.
             </p>
 
             {/* Huge Dynamic WhatsApp CTA Button */}

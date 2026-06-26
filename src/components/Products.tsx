@@ -51,15 +51,6 @@ export default function Products() {
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Satin* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
-      id: "rubber",
-      name: "Label Rubber",
-      desc: "Label rubber timbul yang kuat untuk pakaian olahraga, streetwear, dan jaket yang membutuhkan detail akhir modern dan tahan lama.",
-      image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 280 /pcs",
-      features: ["Tahan Aus & Elastis", "Desain Timbul Modern", "Cocok untuk Hoodie & Jaket", "Tahan Cuci Mesin"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Rubber* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
-    },
-    {
       id: "tag",
       name: "Label Tag Gantung",
       desc: "Label gantung custom untuk pakaian dan aksesori, membantu memperkuat brand dengan desain premium dan material tebal.",

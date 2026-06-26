@@ -42,15 +42,6 @@ export default function Products() {
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Komputer* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
     },
     {
-      id: "satin",
-      name: "Label Satin",
-      desc: "Label satin halus dengan tampilan mewah untuk pakaian premium, dress, dan koleksi fashion yang membutuhkan finishing elegan.",
-      image: "https://images.unsplash.com/photo-1525186402429-2a1d3f476b06?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 300 /pcs",
-      features: ["Permukaan Satin Halus & Mewah", "Nyaman di Kontak Kulit", "Cocok untuk Pakaian Premium", "Cetak Logo & Instruksi Perawatan"],
-      waMessage: "Halo Lilik Label, saya tertarik memesan *Label Satin* untuk brand pakaian saya. Mohon informasi harga dan cara order.",
-    },
-    {
       id: "tag",
       name: "Label Tag Gantung",
       desc: "Label gantung custom untuk pakaian dan aksesori, membantu memperkuat brand dengan desain premium dan material tebal.",

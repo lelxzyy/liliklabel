@@ -19,7 +19,6 @@ export default function Products() {
       name: "Label Woven",
       desc: "Label rajut berkualitas tinggi untuk pakaian dan fashion brand, tahan cuci, tidak mudah luntur, ideal untuk merk, ukuran, dan care label.",
       image: "https://images.unsplash.com/photo-1520975869014-35fd2fb2da3d?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 350 /pcs",
       features: ["Tahan Cuci & Tidak Mudah Luntur", "Tekstur Premium Woven", "Cocok untuk Pakaian & Aksesori", "Hasil Label Brand Profesional"],
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Woven* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
     },
@@ -28,7 +27,6 @@ export default function Products() {
       name: "Label Printing",
       desc: "Label kain printing warna penuh dengan detail tajam, sangat cocok untuk label brand, instruksi perawatan, dan label ukuran pada pakaian.",
       image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 280 /pcs",
       features: ["Cetak Warna Penuh Berkualitas", "Permukaan Lembut untuk Kain", "Ideal untuk Care Label & Brand", "Detail Tajam pada Ukuran Kecil"],
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Printing* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
     },
@@ -37,7 +35,6 @@ export default function Products() {
       name: "Label Komputer",
       desc: "Label komputer presisi untuk pakaian dan seragam, mudah dicetak dalam jumlah banyak dengan hasil logo, nama, dan ukuran yang konsisten.",
       image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 220 /pcs",
       features: ["Hasil Cetak Presisi Komputer", "Cocok untuk Seragam & Pakaian", "Daya Rekat Kuat & Tahan Panas", "Ideal untuk Produksi Massal"],
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Komputer* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
     },
@@ -46,7 +43,6 @@ export default function Products() {
       name: "Label Satin",
       desc: "Label satin halus dengan tampilan mewah untuk pakaian premium, dress, dan koleksi fashion yang membutuhkan finishing elegan.",
       image: "https://images.unsplash.com/photo-1525186402429-2a1d3f476b06?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 300 /pcs",
       features: ["Permukaan Satin Halus & Mewah", "Nyaman di Kontak Kulit", "Cocok untuk Pakaian Premium", "Cetak Logo & Instruksi Perawatan"],
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Satin* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
     },
@@ -55,7 +51,6 @@ export default function Products() {
       name: "Label Rubber",
       desc: "Label rubber timbul yang kuat untuk pakaian olahraga, streetwear, dan jaket yang membutuhkan detail akhir modern dan tahan lama.",
       image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 280 /pcs",
       features: ["Tahan Aus & Elastis", "Desain Timbul Modern", "Cocok untuk Hoodie & Jaket", "Tahan Cuci Mesin"],
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Rubber* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
     },
@@ -64,7 +59,6 @@ export default function Products() {
       name: "Label Tag Gantung",
       desc: "Label gantung custom untuk pakaian dan aksesori, membantu memperkuat brand dengan desain premium dan material tebal.",
       image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=600&q=80",
-      price: "Rp 180 /pcs",
       features: ["Custom Desain Brand & Harga", "Bahan Tebal & Tahan Rusak", "Cocok untuk Tag Pakaian & Aksesori", "Finishing Matte/Mengkilap"],
       waMessage: "Halo Lilik Label, saya tertarik memesan *Label Tag Gantung* untuk produk pakaian saya. Mohon informasi harga dan cara order.",
     },
@@ -111,11 +105,11 @@ export default function Products() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 
-                {/* Floating Price Tag */}
+                {/* Floating Price Tag 
                 <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur px-3 py-1.5 rounded-xl flex items-center gap-1.5 shadow-md">
                   <Tag className="w-3.5 h-3.5 text-amber-500 fill-current" />
                   <span className="text-xs font-extrabold text-slate-800">{product.price}</span>
-                </div>
+                </div> */}
               </div>
 
               {/* Card Body */}

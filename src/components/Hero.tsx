@@ -37,7 +37,6 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-xs sm:text-sm font-semibold mx-auto lg:mx-0 self-center lg:self-start shadow-sm"
             >
-              <Sparkles className="w-4 h-4 text-amber-500" />
               <span>Percetakan Label Custom</span>
             </motion.div>
 

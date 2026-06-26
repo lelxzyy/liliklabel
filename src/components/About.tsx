@@ -3,7 +3,7 @@ import { CheckCircle, Award, Users, Printer } from "lucide-react";
 
 export default function About() {
   const stats = [
-    { value: "5,000+", label: "UMKM Terbantu" },
+    { value: "5,000+", label: "Merk Terbantu" },
     { value: "2.5M+", label: "Label Dicetak" },
     { value: "99.8%", label: "Tingkat Kepuasan" },
     { value: "24 Jam", label: "Customer Service" },
@@ -47,7 +47,7 @@ export default function About() {
                   <Award className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-2xl font-black">5+ Thn</h4>
+                  <h4 className="text-2xl font-black">20+ Thn</h4>
                   <p className="text-xs text-blue-100 font-medium leading-tight">
                     Pengalaman di Bidang Cetak Label Pakaian
                   </p>

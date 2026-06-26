@@ -85,7 +85,7 @@ export default function Navbar() {
                 Lilik<span className="text-blue-600">Label</span>
               </span>
               <p className="text-[10px] text-slate-500 font-medium uppercase tracking-widest -mt-1">
-                Custom Printing
+                Custom Label
               </p>
             </div>
           </a>

@@ -61,7 +61,9 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 font-medium leading-relaxed"
             >
-              Kami membantu UMKM dan berbagai bisnis menciptakan label produk berkualitas tinggi dengan desain menarik, hasil cetak tajam, dan harga terjangkau.
+              Kami membantu UMKM dan berbagai bisnis menciptakan label produk
+              berkualitas tinggi dengan desain menarik, hasil cetak tajam, dan
+              harga terjangkau.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -125,7 +127,7 @@ export default function Hero() {
               {/* Main Mockup Image */}
               <div className="bg-white p-3 rounded-[2rem] shadow-2xl border border-slate-100/50 overflow-hidden transform hover:scale-[1.02] transition-transform duration-500">
                 <img
-                  src="/src/assets/images/label_hero_mockup_1782453875948.jpg"
+                  src="https://i.pinimg.com/736x/c1/a8/60/c1a86097dc0dfcf65ddd5d2a9a95408a.jpg"
                   alt="Custom Product Label Premium Mockup Lilik Label"
                   className="rounded-[1.5rem] w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
@@ -135,30 +137,47 @@ export default function Hero() {
               {/* Floating Badge 1 - Top Left */}
               <motion.div
                 animate={{ y: [0, -10, 0] }}
-                transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 4,
+                  ease: "easeInOut",
+                }}
                 className="absolute -top-4 -left-6 bg-white/95 backdrop-blur shadow-lg border border-slate-100 p-4 rounded-2xl flex items-center gap-3"
               >
                 <div className="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center">
                   <ShieldCheck className="w-5 h-5 text-blue-600" />
                 </div>
                 <div>
-                  <p className="text-xs text-slate-400 font-medium">Bahan Premium</p>
-                  <p className="text-sm font-extrabold text-slate-800">100% Vinyl & Waterproof</p>
+                  <p className="text-xs text-slate-400 font-medium">
+                    Bahan Premium
+                  </p>
+                  <p className="text-sm font-extrabold text-slate-800">
+                    100% Vinyl & Waterproof
+                  </p>
                 </div>
               </motion.div>
 
               {/* Floating Badge 2 - Bottom Right */}
               <motion.div
                 animate={{ y: [0, 8, 0] }}
-                transition={{ repeat: Infinity, duration: 3.5, ease: "easeInOut", delay: 0.5 }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 3.5,
+                  ease: "easeInOut",
+                  delay: 0.5,
+                }}
                 className="absolute -bottom-6 -right-4 bg-slate-900/95 backdrop-blur shadow-xl p-4 rounded-2xl flex items-center gap-3 text-white"
               >
                 <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center">
                   <Sparkles className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <p className="text-xs text-slate-400 font-medium">Gratis Jasa</p>
-                  <p className="text-sm font-extrabold">Potong Pola (Die Cut)</p>
+                  <p className="text-xs text-slate-400 font-medium">
+                    Gratis Jasa
+                  </p>
+                  <p className="text-sm font-extrabold">
+                    Potong Pola (Die Cut)
+                  </p>
                 </div>
               </motion.div>
             </motion.div>

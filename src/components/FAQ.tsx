@@ -14,33 +14,33 @@ export default function FAQ() {
   const faqs: FAQItem[] = [
     {
       id: 1,
-      question: "Berapa minimal order (MOQ) untuk cetak stiker label?",
-      answer: "Lilik Label berkomitmen penuh mendukung pertumbuhan UMKM. Oleh karena itu, kami melayani pesanan yang sangat fleksibel tanpa minimal order besar (bisa order satuan atau dalam lembaran A3+). Tentu saja, untuk pemesanan dalam jumlah grosir besar, Anda akan mendapatkan potongan harga per keping stiker yang jauh lebih hemat.",
+      question: "Berapa minimal order untuk label pakaian seperti woven, printing, atau komputer?",
+      answer: "Lilik Label mendukung brand fashion kecil dan grosir. Kami melayani order label pakaian mulai dari satuan hingga produksi massal, dengan harga yang lebih hemat untuk pemesanan jumlah besar.",
     },
     {
       id: 2,
-      question: "Apa perbedaan mendasar antara bahan stiker Vinyl dan Chromo?",
-      answer: "Perbedaan utamanya terletak pada bahan dasarnya. Stiker Vinyl terbuat dari plastik PVC tipis sehingga 100% tahan air (waterproof), tahan minyak, elastis, anti sobek, cocok untuk produk dingin/basah seperti frozen food, jus, salad, jar skincare, dan botol kosmetik. Sementara stiker Chromo berbahan dasar kertas glossy yang tebal dan ekonomis, sangat cocok untuk label makanan kering, stiker hampers, box kemasan, atau stiker pengiriman.",
+      question: "Apa perbedaan antara label woven, label printing, dan label komputer?",
+      answer: "Label woven terbuat dari benang rajut dan ideal untuk label brand pakaian yang tahan cuci. Label printing cocok untuk mencetak logo berwarna dan instruksi perawatan di kain tipis. Label komputer adalah pilihan ekonomis untuk nama, ukuran, dan detail produksi dengan hasil cetak yang presisi dan konsisten.",
     },
     {
       id: 3,
-      question: "Format file desain seperti apa yang direkomendasikan?",
-      answer: "Untuk memastikan hasil cetakan stiker Anda sangat tajam, detail huruf terbaca jelas, dan warna tidak blur, kami sangat menyarankan file format vektor seperti PDF, Adobe Illustrator (.ai), CorelDraw (.cdr), atau SVG. Namun jangan khawatir, kami juga tetap menerima file gambar resolusi tinggi format PNG (transparan) atau JPEG dengan kerapatan piksel minimal 300 DPI.",
+      question: "Format file desain apa yang terbaik untuk label pakaian?",
+      answer: "Untuk hasil terbaik, kami merekomendasikan file vektor seperti PDF, Adobe Illustrator (.ai), CorelDraw (.cdr), atau SVG. File PNG transparan atau JPEG resolusi tinggi 300 DPI juga dapat digunakan, terutama untuk desain logo atau label printing.",
     },
     {
       id: 4,
-      question: "Berapa lama proses pengerjaan stiker hingga siap dikirim?",
-      answer: "Proses produksi standar kami berkisar antara 2 sampai 4 hari kerja setelah pembayaran divalidasi dan file desain disetujui untuk dicetak (sudah fix ukuran dan garis potongnya). Kecepatan cetak juga dipengaruhi oleh antrean produksi serta kerumitan jenis potongan stiker Anda (Die Cut / Kiss Cut).",
+      question: "Berapa lama proses produksi label pakaian hingga siap kirim?",
+      answer: "Produksi standar kami biasanya memakan waktu 2 sampai 5 hari kerja setelah file desain final disetujui dan pembayaran dikonfirmasi. Waktu ini bisa lebih cepat untuk order kecil, sedangkan label woven custom dengan jumlah besar umumnya memerlukan persiapan sedikit lebih lama.",
     },
     {
       id: 5,
-      question: "Apakah saya bisa dibantu membuat garis potong (cutline) pola custom?",
-      answer: "Tentu saja! Tim desainer profesional Lilik Label siap membantu Anda merancang atau merapikan garis potong (cutline) stiker secara gratis sesuai pola logo produk Anda, baik itu bentuk bulat, persegi, oval, maupun mengikuti kontur lekukan logo yang unik (die-cut custom).",
+      question: "Apakah bisa membuat ukuran dan desain label sesuai spesifikasi pakaian?",
+      answer: "Ya, kami bisa membantu menyesuaikan ukuran label, bentuk, dan desain sesuai kebutuhan pakaian Anda — baik untuk tag brand, ukuran, care label, maupun label khusus seragam.",
     },
     {
       id: 6,
-      question: "Apakah bisa kirim ke luar kota/pulau, dan bagaimana keamanannya?",
-      answer: "Kami melayani pengiriman stiker label ke seluruh wilayah kota dan kabupaten di Indonesia. Untuk menjaga lembaran stiker Anda tetap lurus, tidak terlipat, dan aman dari kelembaban selama perjalanan ekspedisi, kami mengemasnya secara khusus menggunakan lapisan plastik OPP tebal, bubble wrap berlapis, serta amplop kardus kokoh.",
+      question: "Bagaimana pengemasan dan pengiriman agar label tidak rusak?",
+      answer: "Kami mengemas label pakaian secara rapi menggunakan lapisan pelindung, kardus kokoh, dan jika perlu plastik anti lembab agar label tetap mulus tiba di lokasi Anda.",
     },
   ];
 
@@ -54,7 +54,7 @@ export default function FAQ() {
             Pertanyaan yang Sering Diajukan (FAQ)
           </h2>
           <p className="text-base text-slate-600 font-medium">
-            Temukan jawaban cepat atas pertanyaan mendasar mengenai proses desain, bahan stiker, produksi, hingga mekanisme pengiriman paket Anda.
+            Temukan jawaban cepat untuk pertanyaan label pakaian, mulai dari jenis bahan woven, printing, komputer, hingga proses produksi dan pengiriman.
           </p>
         </div>
 

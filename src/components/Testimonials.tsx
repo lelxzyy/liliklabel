@@ -21,36 +21,36 @@ export default function Testimonials() {
       id: 1,
       name: "Siti Rahmawati",
       role: "Founder",
-      company: "Elia Organics (Skincare)",
+      company: "Mila Apparel",
       rating: 5,
-      comment: "Lilik Label benar-benar menyelamatkan peluncuran produk serum kami! Hasil cetak label vinyl glossy mereka sangat jernih, warnanya persis sesuai mockup desain, dan stikernya 100% tahan air meski ditaruh di kamar mandi lembab. Adminnya ramah dan pengerjaan tepat waktu.",
+      comment: "Label woven dari Lilik Label membuat koleksi jaket kami tampak jauh lebih premium. Hasil jahitannya rapi dan labelnya tetap kuat meski sudah dicuci beberapa kali.",
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80",
     },
     {
       id: 2,
       name: "Hendra Wijaya",
       role: "Owner",
-      company: "Roast & Brew Coffee",
+      company: "Studio Streetwear",
       rating: 5,
-      comment: "Sudah order label botol kopi literan di sini berkali-kali. Bahan stiker vinyl dolf-nya memberikan kesan mewah banget. Lemnya sangat rekat, tidak lepas walau dimasukkan ke es batu seharian. Harga sangat bersahabat buat UMKM kecil.",
+      comment: "Label printing untuk tag ukuran dan brand kami terlihat tajam dan tidak pudar. Proses pesanannya cepat dan bahan labelnya pas untuk pakaian urban kami.",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80",
     },
     {
       id: 3,
       name: "Amanda Lestari",
-      role: "Marketing Manager",
-      company: "Dapur Manis Bakery",
+      role: "Design Lead",
+      company: "Kirana Batik",
       rating: 5,
-      comment: "Suka sekali dengan hasil stiker Chromo dan stiker segel box dari Lilik Label. Cetakannya presisi, potongannya sangat rapi jadi tinggal kelupas langsung tempel di box kue kami. Unboxing kemasan kami terlihat jauh lebih berkelas!",
+      comment: "Label komputer yang saya pesan untuk seragam dan koleksi batik benar-benar presisi. Setiap detail nama, ukuran, dan logo tercetak jelas sehingga produksi kami jadi lebih efisien.",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
     },
     {
       id: 4,
       name: "Rian Pratama",
-      role: "Pemilik Usaha",
-      company: "Sambal Bakar Nusantara",
+      role: "Pemilik Brand",
+      company: "Urban Threads",
       rating: 5,
-      comment: "Awalnya ragu apakah stiker label makanan bisa tahan minyak. Setelah mencoba stiker vinyl laminasi dari Lilik Label, ternyata luar biasa kuat! Sambal berminyak kami tidak merusak tulisan dan gambar sama sekali. Terima kasih banyak!",
+      comment: "Order pertama label pakaian berjalan mulus. Labelnya tahan cuci dan nyaman dipakai, membuat produk kami terlihat lebih profesional di mata pelanggan.",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80",
     },
   ];
@@ -101,7 +101,7 @@ export default function Testimonials() {
             Apa Kata Mereka Tentang Lilik Label?
           </h2>
           <p className="text-base text-slate-600 font-medium">
-            Lebih dari ribuan pebisnis kuliner, kecantikan, dan e-commerce telah bermitra dengan kami untuk mempercantik kemasan mereka.
+            Lebih dari ribuan brand fashion, butik, dan produsen pakaian telah mempercayakan label woven, printing, dan komputer mereka kepada kami.
           </p>
         </div>
 

@@ -80,9 +80,6 @@ export default function Navbar() {
             onClick={(e) => handleNavClick(e, "#hero")}
             className="flex items-center gap-2 group"
           >
-            <div className="bg-blue-600 text-white p-2 rounded-xl shadow-md group-hover:bg-blue-700 transition-all duration-300 transform group-hover:scale-105">
-              <Printer className="w-6 h-6" />
-            </div>
             <div>
               <span className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors duration-300">
                 Lilik<span className="text-blue-600">Label</span>

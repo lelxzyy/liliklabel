@@ -58,7 +58,7 @@ export default function CTA() {
             {/* Trust Badges */}
             <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 pt-4 text-xs font-bold text-blue-100">
               <p>✓ Respons Cepat Admin</p>
-              <p>✓ Tanpa Minimal Order</p>
+              <p>✓ Harga Terjangkau</p>
               <p>✓ Bergaransi Hasil Cetak</p>
             </div>
           </div>

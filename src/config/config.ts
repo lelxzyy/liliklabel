@@ -7,8 +7,7 @@ export const CONFIG = {
   contactEmail: "info@liliklabel.com",
   contactAddress:
     "Jl. Raya Caturharjo, Malangrejo, Caturharjo, Kec. Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55515",
-  mapsUrl:
-    "https://www.google.com/maps/search/?api=1&query=Jl.%20Raya%20Caturharjo%2C%20Malangrejo%2C%20Caturharjo%2C%20Kec.%20Sleman%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta%2055515",
+  mapsUrl: "https://maps.app.goo.gl/jUC2ukZUKCX1mKeK9",
   mapsEmbedUrl:
-    "https://www.google.com/maps?q=Jl.%20Raya%20Caturharjo%2C%20Malangrejo%2C%20Caturharjo%2C%20Kec.%20Sleman%2C%20Kabupaten%20Sleman%2C%20Daerah%20Istimewa%20Yogyakarta%2055515&output=embed",
+    "https://www.google.com/maps?output=embed&q=https%3A%2F%2Fmaps.app.goo.gl%2FjUC2ukZUKCX1mKeK9",
 };

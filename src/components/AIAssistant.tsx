@@ -32,6 +32,9 @@ const initialMessages: ChatMessage[] = [
   },
 ];
 
+const assistantUnavailableMessage =
+  "Maaf, AI assistant belum aktif di server. Silakan hubungi WhatsApp Lilik Label untuk konsultasi cepat.";
+
 export default function AIAssistant() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>(initialMessages);
@@ -80,10 +83,13 @@ export default function AIAssistant() {
         }),
       });
 
-      const data = await response.json();
+      const contentType = response.headers.get("content-type") || "";
+      const data = contentType.includes("application/json")
+        ? await response.json()
+        : null;
 
       if (!response.ok) {
-        throw new Error(data?.message || "AI assistant sedang tidak tersedia.");
+        throw new Error(data?.message || assistantUnavailableMessage);
       }
 
       setMessages((currentMessages) => [
@@ -91,7 +97,7 @@ export default function AIAssistant() {
         {
           id: crypto.randomUUID(),
           role: "assistant",
-          content: data.message,
+          content: data?.message || assistantUnavailableMessage,
         },
       ]);
     } catch (error) {

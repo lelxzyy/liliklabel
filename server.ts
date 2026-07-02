@@ -25,6 +25,13 @@ Jangan mengarang promo, stok, atau kebijakan yang tidak tersedia di website.`;
 
 app.use(express.json({ limit: "1mb" }));
 
+app.get("/api/health", (_req, res) => {
+  res.json({
+    ok: true,
+    aiConfigured: Boolean(process.env.GROQ_API_KEY),
+  });
+});
+
 app.post("/api/ai-assistant", async (req, res) => {
   const apiKey = process.env.GROQ_API_KEY;
 

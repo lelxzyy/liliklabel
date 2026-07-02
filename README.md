@@ -18,16 +18,19 @@ Website Lilik Label menggunakan Vite React untuk frontend dan Express untuk API 
    npm run dev
    ```
 
-## Deploy Production
+## Deploy di Vercel
 
-AI assistant membutuhkan server Node/Express. Jangan deploy hanya folder `dist` sebagai static site, karena endpoint `/api/ai-assistant` tidak akan tersedia.
+AI assistant di Vercel berjalan lewat Serverless Function di folder `api/`. Frontend tetap memanggil endpoint yang sama: `/api/ai-assistant`.
 
-Konfigurasi umum untuk hosting Node:
+Konfigurasi Vercel:
 
-- Build command: `npm install && npm run build`
-- Start command: `npm start`
+- Framework preset: `Vite`
+- Build command: `npm run build`
+- Output directory: `dist`
 - Environment variable wajib: `GROQ_API_KEY`
 - Environment variable opsional: `GROQ_MODEL`
+
+Setelah menambahkan atau mengubah environment variable di Vercel, redeploy production.
 
 Setelah deploy, cek endpoint ini:
 
@@ -38,7 +41,7 @@ curl https://liliklabel.web.id/api/health
 Response yang benar:
 
 ```json
-{"ok":true,"aiConfigured":true}
+{"ok":true,"aiConfigured":true,"platform":"vercel"}
 ```
 
-Jika `aiConfigured` bernilai `false`, berarti `GROQ_API_KEY` belum terpasang di environment server. Jika endpoint mengembalikan halaman HTML atau 404, berarti domain masih berjalan sebagai static hosting dan belum menjalankan `server.ts`.
+Jika `aiConfigured` bernilai `false`, berarti `GROQ_API_KEY` belum terpasang di Environment Variables Vercel untuk deployment production. Jika endpoint mengembalikan 404, pastikan folder `api/` ikut ter-push ke repository dan deploy terbaru sudah berhasil.

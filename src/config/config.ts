@@ -9,5 +9,5 @@ export const CONFIG = {
     "Jl. Raya Caturharjo, Malangrejo, Caturharjo, Kec. Sleman, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55515",
   mapsUrl: "https://maps.app.goo.gl/jUC2ukZUKCX1mKeK9",
   mapsEmbedUrl:
-    "https://www.google.com/maps?output=embed&q=https%3A%2F%2Fmaps.app.goo.gl%2FjUC2ukZUKCX1mKeK9",
+    "https://www.google.com/maps?q=-7.6898608,110.3267738&z=17&output=embed",
 };

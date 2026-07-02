@@ -1,5 +1,5 @@
 import React from "react";
-import { Printer, Mail, Phone, MapPin, Instagram, MessageCircle, ArrowUp } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, MessageCircle, ArrowUp, ExternalLink } from "lucide-react";
 import { CONFIG } from "../config/config";
 
 export default function Footer() {
@@ -140,6 +140,29 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
+            <a
+              href={CONFIG.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block overflow-hidden rounded-lg border border-slate-700 bg-slate-800/70 transition-all duration-300 hover:border-blue-500 hover:bg-slate-800 hover:shadow-lg hover:shadow-blue-950/30"
+              aria-label={`Buka lokasi ${CONFIG.brandName} di Google Maps`}
+            >
+              <div className="relative h-44 w-full bg-slate-800">
+                <iframe
+                  src={CONFIG.mapsEmbedUrl}
+                  title={`Peta lokasi ${CONFIG.brandName}`}
+                  className="h-full w-full border-0 grayscale-[35%] contrast-110 pointer-events-none"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  tabIndex={-1}
+                />
+                <div className="absolute inset-0 bg-slate-950/10 transition-colors duration-300 group-hover:bg-blue-950/10" />
+              </div>
+              <div className="flex items-center justify-between gap-3 px-4 py-3">
+                <span className="text-sm font-extrabold text-white">Lihat lokasi di Google Maps</span>
+                <ExternalLink className="h-4 w-4 shrink-0 text-blue-400 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </div>
+            </a>
           </div>
 
         </div>

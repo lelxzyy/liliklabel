@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import AIAssistant from "./components/AIAssistant";
 
 export default function App() {
   return (
@@ -44,6 +45,8 @@ export default function App() {
 
       {/* Section 9: Detailed Site Footer */}
       <Footer />
+
+      <AIAssistant />
     </div>
   );
 }
